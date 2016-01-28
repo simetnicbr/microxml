@@ -26,6 +26,11 @@
  */
 
 #include "config.h"
+#include "mxml-private.h"
+
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 /*

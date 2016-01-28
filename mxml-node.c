@@ -34,6 +34,9 @@
 
 #include "config.h"
 #include "microxml.h"
+#include "mxml-private.h"
+
+#include <stdarg.h>
 
 
 /*

@@ -24,6 +24,9 @@
 
 #include "config.h"
 #include "microxml.h"
+#include "mxml-private.h"
+
+#include <stdarg.h>
 
 static int	mxml_set_attr(mxml_node_t *node, const char *name, char *value);
 

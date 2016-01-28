@@ -27,6 +27,8 @@
 
 #include "mxml-private.h"
 
+#include <stdarg.h>
+
 
 /*
  * Some crazy people think that unloading a shared object is a good or safe

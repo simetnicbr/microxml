@@ -49,6 +49,7 @@ datarootdir	=	@datarootdir@
 includedir	=	@includedir@
 libdir		=	@libdir@
 BUILDROOT	=	$(DSTROOT)
+DSTROOT		=	$(DESTDIR)
 
 
 #

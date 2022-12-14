@@ -43,3 +43,9 @@ typedef struct _mxml_global_s
 extern _mxml_global_t	*_mxml_global(void);
 extern int		_mxml_entity_cb(const char *name);
 
+char *					/* O - New string pointer */
+_mxml_vstrdupf(const char *format,	/* I - Printf-style format string */
+               va_list    ap);		/* I - Pointer to additional arguments */
+char *					/* O - New string pointer */
+_mxml_strdupf(const char *format,	/* I - Printf-style format string */
+              ...);			/* I - Additional arguments as needed */
